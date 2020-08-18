@@ -1,7 +1,6 @@
 pipeline {
   agent {
     docker {
-      args ' '
       image 'maven:3-openjdk-11'
     }
 
